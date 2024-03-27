@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AuthTextView">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="ButtonView">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="ButtonView.Primary" parent="ButtonView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/backgroundButton</item>
+    </style>
+
+    <style name="Text" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Primary">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+</resources>

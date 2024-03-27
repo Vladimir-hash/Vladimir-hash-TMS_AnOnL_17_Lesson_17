@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">Lesson17</string>
+    <string name="title_main">Create account</string>
+    <string name="login_hint">Input login</string>
+    <string name="password_hint">Input password</string>
+    <string name="email_hint">Input E-mail</string>
+    <string name="button_reg">Registration</string>
+    <string name="button_enter">Sign in</string>
+    <string name="title_sales">Sales</string>
+    <string name="ad_sales">1+1 = 3</string>
+    <string name="ad_text">Deal of the day</string>
+    <string name="button_catalog">Catalog</string>
+    <string name="button_cart">Cart</string>
+    <string name="title_goods">Goods</string>
+    <string name="button_ad_to_cart">Add to cart</string>
+    <string name="button_profile">Profile</string>
+    <string name="title_cart">Cart</string>
+    <string name="button_buy">Buy</string>
+    <string name="title_user">Profile</string>
+    <string name="button_exit">Exit</string>
+    <string name="contentDescription">Cart</string>
+</resources>

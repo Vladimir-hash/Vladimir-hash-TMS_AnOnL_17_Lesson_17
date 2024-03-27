@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/title_sales"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="50dp"
+        android:textSize="@dimen/adTitle"
+        android:textStyle="bold"
+        android:text="@string/ad_sales"
+        />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/ad_text"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/adTitle"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/goodsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp"
+        />
+
+    <Button
+        android:id="@+id/button_to_goods"
+        style="@style/ButtonView.Primary"
+        android:text="@string/button_catalog"
+        />
+
+    <Button
+        android:id="@+id/button_to_cart"
+        style="@style/ButtonView.Primary"
+        android:text="@string/button_cart"
+        />
+</LinearLayout>

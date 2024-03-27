@@ -1,0 +1,21 @@
+<resources>
+    <string name="title_main">Создать аккаунт</string>
+    <string name="login_hint">Введите логин</string>
+    <string name="password_hint">Ввведите пароль</string>
+    <string name="email_hint">Введите E-mail</string>
+    <string name="button_reg">Регистрация</string>
+    <string name="button_enter">Авторизоваться</string>
+    <string name="title_sales">Скидки</string>
+    <string name="ad_sales">1+1 = 3</string>
+    <string name="ad_text">Предложения дня</string>
+    <string name="button_catalog">Каталог</string>
+    <string name="button_cart">Корзина</string>
+    <string name="title_goods">Товары</string>
+    <string name="button_ad_to_cart">Добавить в корзину</string>
+    <string name="button_profile">Профиль</string>
+    <string name="title_cart">Корзина</string>
+    <string name="button_buy">Купить</string>
+    <string name="title_user">Профиль</string>
+    <string name="button_exit">Выход</string>
+    <string name="contentDescription">Корзина</string>
+</resources>
